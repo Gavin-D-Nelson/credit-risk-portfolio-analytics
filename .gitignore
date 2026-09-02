@@ -1,0 +1,38 @@
+# ============================================
+# Credit Risk Portfolio Analytics
+# Files excluded from GitHub
+# ============================================
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep directory structure in GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Large data files
+*.csv
+*.csv.gz
+*.zip
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
